@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500&display=swap');
+
+
+
+/*color theme*/
+
+.bg-color1{
+    background-color: blue !important;
+}
+
+.bg-color2{
+    background-color: whitesmoke !important;
+}
+
+.bg-color3{
+    background-color: steelblue !important;
+}
+
+.bg-color4{
+    background-color: darkslategrey !important;
+}
+
+
+/*custom styling*/
+
+.navbar{
+    width: 100%;
+}
+
+.mt{
+    margin-top: 40px !important; 
+}
+    
+.headpage{
+    height: 90vh;
+    width: 100%;
+    color: #E1E1E1; 
+    background-image: url(../photos/pexels-pixabay-416528.jpg) !important; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.featurepage{
+    background-color: blue !important;
+    color: whitesmoke !important;
+    margin-top: -30px !important;
+}
+
+.card-zoom{
+    transition: all ease-in-out 0.5s;
+}
+.card-zoom:hover{
+    transform: rotateY(360deg);
+}
+
+.swiper {
+    width: 100%;
+}
